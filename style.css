@@ -1,0 +1,71 @@
+.subscription{
+    display: flex;
+    gap: 20px;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.subscription > div{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(224, 223, 221);
+    max-width: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 10px;
+}
+.sub2 > h5{
+    font-size: x-large;
+}
+.sub2 > .money{
+    font-size: xxx-large;
+}
+.sub2 > input{
+    padding: 10px;
+}
+p{
+    font-size: small;
+    margin: 5px;
+}
+.money{
+    font-size: xx-large;
+    
+}
+h5{
+    font-size: large;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 5px;
+    width: 50px;
+    font-weight: 700;
+}
+.subscription > div > input{
+    margin: 10px;
+}
+@media(max-width:500px){
+    .subscription{
+        flex-direction: column;
+        height: 100%;
+    }
+    .subscription > div{
+        text-align: center;
+        background-color: rgb(224, 223, 221);
+        width: 250px;
+        flex-basis: 150px;
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+}
